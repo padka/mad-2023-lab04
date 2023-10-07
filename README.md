@@ -117,7 +117,7 @@ registerForActivityResult(актуально).
 1. Заполните отчет [REPORT.md](REPORT.md)
 2. Выполните commit для фиксации всех изменений
 3. Выполнить push для оправки изменений на github.com
-4. Создайте Pull Request в репозиторий chebotarevsa/mad-2023-lab02.
+4. Создайте Pull Request в репозиторий chebotarevsa/mad-2023-lab04.
    В названии Pull Request укажите группу и свою имя и фамилию, например "123 Иван Иванов"
 
 ## Дополнительные материалы
