@@ -95,6 +95,13 @@ registerForActivityResult(актуально).
 Подумайте каким образом можно сохранить изменения, если модель данных доступна
 только для экрана "Список карточек"
 
+В случаее если при работе получении изображения возникает ошибка с нехваткой полномочий используйте следующий код
+``` kotlin
+val flag = Intent.FLAG_GRANT_READ_URI_PERMISSION
+context.contentResolver.takePersistableUriPermission(uri, flag)
+```
+[см. документацию](https://developer.android.com/training/data-storage/shared/photopicker)
+
 <img height="400" src="img/3_view.png"/>
 
 ## Удаление карточки
